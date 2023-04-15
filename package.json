@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@types/google.maps": "^3.52.5"
+  }
+}
