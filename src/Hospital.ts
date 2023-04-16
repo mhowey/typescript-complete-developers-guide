@@ -13,4 +13,7 @@ export class Hospital {
       lng: parseFloat(faker.address.longitude()),
     };
   }
+  markerContent(): string {
+    return `<h2>Hospital name is: ${this.hospitalName}</h2>`;
+  }
 }
